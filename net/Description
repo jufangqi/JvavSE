@@ -1,0 +1,10 @@
+package net:    实现的工具包
+    Util 经常用到的工具类：
+        Date    时间格式设置
+        File    递归查找整个目录
+        JDBC    JDBC连接
+        Snack   网络爬虫
+        Xml     Xml解析器
+    Practice    练习文件
+        a   基础练习
+        b   Io练习

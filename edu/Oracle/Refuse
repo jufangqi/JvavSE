@@ -1,0 +1,7 @@
+overload 重载 同一类中的
+override 重写 父类的
+类和类之间的关系
+依赖 类作为参数或变量使用
+聚合 类作为类的属性
+继承 ...
+Object --> toString equals hashCode getClass  wait
