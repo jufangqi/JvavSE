@@ -10,17 +10,21 @@ import java.util.Properties;
  */
 public class SendMail {
 
+    String shen = "The two level domain name of butanoler added to your account." +
+            "\nNow you can log in!"+
+            "\nIf you think the message is wrong, you can delete it.and i will be sorry for it."+
+            "\n如果不是你本人所为，你可以删除它。抱歉。" +
+            "\nIf this information is really your, you can click on the link below to enter the site:"+
+            "\n如果这个信息真的是你的，你可以点击下面的链接进入网站："+
+            "\nhttp://www.butanoler.cn" +
+            "\n如果你忘记密码，可以发送邮件来修改密码(邮件标题为 change)，格式如下:(暂不支持全拼)" +
+            "\nname=username&pass=password";
+    String gaim = "";
+
     public static void main(String[] args) {
 
         SendMail sendEmail = new SendMail();
-        String temp = "The butanoler of two level domain name was added to your account:\n"+
-                "\nusername:zjn"+
-                "\npassword:root"+
-                "\n"+
-                "\nIf you think the message is wrong, you can delete it.and you will be sorry for it.\n" +
-                "\nIf this information is really your, you can click on the link below to enter the site:\n"+
-                "\nhttp://www.butanoler.cn";
-        sendEmail.Send("523193308@qq.com",temp);
+        sendEmail.Send("523193308@qq.com",sendEmail.shen);
     }
 
     public boolean Send(String to,String mess)
